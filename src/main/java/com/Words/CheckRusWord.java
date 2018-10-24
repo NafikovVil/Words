@@ -4,7 +4,7 @@ import java.util.regex.Pattern;
 
 public class CheckRusWord implements CheckWord {
 
-	Pattern pattern = Pattern.compile("[�-��-�]+");
+	Pattern pattern = Pattern.compile("[а-яА-Я]+");
 	
 	@Override
 	public boolean match(String word) {
